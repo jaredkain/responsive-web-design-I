@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+hr {
+    color: 1px solid red;
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
@@ -121,10 +125,13 @@ header nav a:hover {
 	text-align: center;
 }
 
-/* .cta-button {
-	display: flex;
-	align-items: center;
-} */
+.cta-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 60px;
+    font-size: 14px;
+}
 
 .services-summary {
 	margin-top: 30px;
@@ -148,10 +155,7 @@ header nav a:hover {
 
 .middle-content .text-container-1 {
 	width: 49%;
-	/* background-color: whitesmoke; */
-	/* border: 1px solid black; */
-	margin-top: 30px;
-	padding: 20px;
+	margin-top: 20px;
 	/* line-height: 1.3; */
 }
 
